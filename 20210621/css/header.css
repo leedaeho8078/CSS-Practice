@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav {
+  background-color: white;
+  box-sizing: border-box;
+}
+.name {
+  margin-left: 250px;
+  color: #4f4f4f;
+  /* margin-top: 20px; */
+}
+.ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+  list-style: none;
+  margin-top: 20px;
+}
+.list {
+  padding: 0 18px;
+}
+.a-list {
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+}
+/* .a-list:link {
+  background-color: red;
+  text-decoration: none;
+} */
